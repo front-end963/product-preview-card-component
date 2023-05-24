@@ -1,3 +1,5 @@
+/* starting mobile design first to load faster on mobile devices */
+
 :root {
     --DarkCyan: hsl(158, 36%, 37%);
     --Cream: hsl(30, 38%, 92%);
@@ -94,6 +96,8 @@ button:hover {
     background-color: var(--VeryDarkBlue);
     cursor: pointer;
 }
+
+/* desktop design */
 
 @media screen and (min-width: 376px) {
 
